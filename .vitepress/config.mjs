@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Chen's Docs",
   description: "Chen's Project Docs",
-  base: "/doc1/",
+ //base: "/doc1/",
   footer: {
     copyright: "版权所有@ 2025 CSM",
   },
