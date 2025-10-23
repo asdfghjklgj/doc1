@@ -31,8 +31,8 @@ export default defineConfig({
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术手册', link: '/Docs' }
-      { text: '备份镜像站', link: 'https://docbak.csmei.sbs/' }
+      { text: '技术手册', link: '/Docs' },
+      { text: '备份镜像站', link: 'https://docbak.csmei.sbs/' },
     ],
 
     sidebar: [
