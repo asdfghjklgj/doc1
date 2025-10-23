@@ -5,9 +5,6 @@ export default defineConfig({
   title: "Chen's Docs",
   description: "Chen's Project Docs",
  //base: "/doc1/",
-  footer: {
-    copyright: "版权所有@ 2025 CSM",
-  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -49,12 +46,13 @@ export default defineConfig({
       }
     ],
     footer: {
+    message: "本手册使用CC BY-NC-SA 4.0进行许可，禁止商业使用。",
     copyright: "版权所有@ 2025 CSM",
   },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/' }
     ]
+    
   }
   
 })
-
