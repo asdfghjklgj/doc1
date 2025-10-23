@@ -33,14 +33,18 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '技术手册', link: '/Docs' },
       { text: '备份镜像站', link: 'https://docbak.csmei.sbs/' },
+      { text: '我的Blog', link: 'https://csmei.sbs/' },
     ],
 
+      outlineTitle: "文章目录",
+      outline: [2, 6],
+    
     sidebar: [
       {
         text: '技术手册 ',
         items: [
-          { text: 'Bmi270-技术手册', link: '/Docs' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'SlimeVR-Bmi270-技术手册', link: '/Docs' },
+          //{ text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
@@ -48,7 +52,7 @@ export default defineConfig({
     copyright: "版权所有@ 2025 CSM",
   },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/' }
     ]
   }
   
